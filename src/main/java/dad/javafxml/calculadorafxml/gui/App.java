@@ -1,4 +1,4 @@
-package dad.javafxml.calculadorafxml.nui;
+package dad.javafxml.calculadorafxml.gui;
 
 import javafx.application.Application;
 import javafx.scene.Scene;
@@ -6,11 +6,13 @@ import javafx.stage.Stage;
 
 public class App extends Application {
 	
-	
+	private Controller controller;
 	
 	@Override
 	public void start(Stage primaryStage) throws Exception {
-		Scene scene = new Scene(null, 320, 200);
+		controller = new Controller();
+		
+		Scene scene = new Scene(controller.getView(), 320, 200);
 		primaryStage.setTitle("Calculadora");
 		primaryStage.setScene(scene);
 		primaryStage.show();
