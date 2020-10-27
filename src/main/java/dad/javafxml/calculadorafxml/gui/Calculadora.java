@@ -4,7 +4,7 @@ import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
 
 /**
- * Implementaci�n de la l�gica de una calculadora.
+ * Implementación de la lógica de una calculadora.
  * @author Fran Vargas
  */
 public class Calculadora {
@@ -27,7 +27,7 @@ public class Calculadora {
 	}
 
 	/**
-	 * Inicializa por completo la calculadora, borrando la informaci�n que tiene memorizada y la pantalla.
+	 * Inicializa por completo la calculadora, borrando la información que tiene memorizada y la pantalla.
 	 */
 	public void borrar() {
 		operando = 0.0;
@@ -36,7 +36,7 @@ public class Calculadora {
 	}
 	
 	/**
-	 * Borra lo que hay en la pantalla (el �ltimo operando introducido).
+	 * Borra lo que hay en la pantalla (el último operando introducido).
 	 */
 	public void borrarTodo() {
 		nuevoOperando = true;
@@ -44,8 +44,8 @@ public class Calculadora {
 	}
 	
 	/**
-	 * Indica a la calculadora que realice la operaci�n indicada. 
-	 * @param operador Operaci�n a realizar; usar una constante: IGUAL, SUMAR, RESTAR, MULTIPLCIAR, DIVIDIR.
+	 * Indica a la calculadora que realice la operación indicada. 
+	 * @param operador Operación a realizar; usar una constante: IGUAL, SUMAR, RESTAR, MULTIPLCIAR, DIVIDIR.
 	 */
 	public void operar(char operador) {
 		nuevoOperando = true;
