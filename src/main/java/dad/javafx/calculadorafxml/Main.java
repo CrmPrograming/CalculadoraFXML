@@ -1,6 +1,6 @@
-package dad.javafxml.calculadorafxml;
+package dad.javafx.calculadorafxml;
 
-import dad.javafxml.calculadorafxml.gui.App;
+import dad.javafx.calculadorafxml.gui.App;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package dad.javafxml.calculadorafxml.gui;
+package dad.javafx.calculadorafxml.gui;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

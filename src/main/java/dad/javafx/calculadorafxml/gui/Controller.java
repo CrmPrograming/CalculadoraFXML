@@ -1,4 +1,4 @@
-package dad.javafxml.calculadorafxml.gui;
+package dad.javafx.calculadorafxml.gui;
 
 import java.io.IOException;
 import java.net.URL;

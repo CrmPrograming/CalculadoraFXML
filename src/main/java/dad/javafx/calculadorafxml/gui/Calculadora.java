@@ -1,4 +1,4 @@
-package dad.javafxml.calculadorafxml.gui;
+package dad.javafx.calculadorafxml.gui;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.beans.property.StringProperty;
